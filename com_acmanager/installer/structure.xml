@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<component>
+  <table action="change" old_name="#__com_acmanager_copy_1_acpush_users" new_name="#__acpush_users" table_name="#__acpush_users" storage_engine="" collation="utf8_general_ci">
+    <field action="change" field_name="id" field_type="INT" field_length="11" is_autoincrement="1" index="primary" description=""/>
+    <field field_name="user_id" field_type="INT" field_length="11" index="index" description=""/>
+    <field field_name="device_id" field_type="TEXT" field_length="500" index="index" description=""/>
+    <field field_name="type" field_type="VARCHAR" field_length="255" index="index" description=""/>
+    <field field_name="created_on" field_type="DATETIME" description=""/>
+    <field field_name="active" field_type="TINYINT" field_length="4" index="index" description=""/>
+    <field field_name="params" field_type="TEXT" field_length="500" description=""/>
+  </table>
+  <table action="change" old_name="#__com_acmanager_copy_1_acpush_config" new_name="#__acpush_config" table_name="#__acpush_config" storage_engine="" collation="utf8_general_ci">
+    <field action="change" field_name="id" field_type="INT" field_length="11" is_autoincrement="1" index="primary" description=""/>
+    <field field_name="type" field_type="VARCHAR" field_length="100" index="index" description=""/>
+    <field field_name="name" field_type="VARCHAR" field_length="255" index="index" description=""/>
+    <field field_name="active" field_type="TINYINT" field_length="11" index="index" description=""/>
+    <field field_name="is_prod" field_type="TINYINT" field_length="4" description=""/>
+    <field field_name="params" field_type="TEXT" field_length="500" index="index" description=""/>
+  </table>
+</component>
